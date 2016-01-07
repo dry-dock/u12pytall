@@ -46,15 +46,20 @@ python:
   - 3.5
   
 services:
+  - cassandra
   - elasticsearch
   - memcached
   - mongodb
   - mysql
+  - neo4j
   - postgres
   - rabbitmq
   - redis
   - selenium
   - sqllite
+  - couchdb
+  - rethinkdb
+  - riak
   
 build_image: drydock/u12pytall:prod
 
